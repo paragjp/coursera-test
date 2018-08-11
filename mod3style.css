@@ -1,0 +1,139 @@
+/* Body styles */
+body {
+  background-color: lavender;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+
+/* Header and navbar styles */
+
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 0;
+}
+
+#header-container {
+  border-bottom: 2px solid #030302;
+}
+
+.navbar-brand h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 1.50;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+  padding-left: 20px;
+  height: auto;
+}
+
+#navbar-menu-button {
+  border-color: #ffffff;
+  margin-top:10px;
+}
+
+#navbar-menu-button:hover, #navbar-menu-button.active {
+  background-color: #d2d1ce;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+/* Navbar menu styles */
+
+#navbar-collapse {
+  font-family: 'Philosopher', sans-serif;
+  border-top: 0;
+}
+
+#navbar-collapse li {
+  font-size: 1.5em;
+  background-color: #d2d1ce;
+  border-bottom: 2px solid #030302;
+  padding-top: 5px;
+  padding-bottom: 4px;
+}
+
+#navbar-collapse li:nth-child(1) {
+  border-top: 2px solid #030302;
+}
+
+#navbar-collapse li:nth-child(3) {
+  border-bottom: 0px;
+}
+
+#navbar-collapse ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#navbar-collapse .navbar-nav>li>a {
+  color: #030302;
+}
+
+#navbar-collapse .navbar-nav>li>a:hover {
+  color: #ffffff;
+}
+
+
+/* Main content styles */
+#main-content {
+  font-family: 'Philosopher', sans-serif;
+  color: #030302;
+}
+
+#main-content h2 {
+  font-size: 1.75em;
+}
+
+/* Section content styles */
+
+#main-content .section-content {
+  min-height: 800px;
+  background-color: #d2d1ce;
+  color: #030302;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+#main-content .section-content h3 {
+  font-size: 1.5em;
+}
+
+#main-content .section-content p {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.section-content .back-to-top {
+   color: #030302;
+}
+
+.section-content .back-to-top:hover {
+  color: #ffffff;
+}
+
+.section-content .nav-back {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  background-color: #999999;
+  border: 1px solid #030302;
+  padding: 5px;
+}
